@@ -1,0 +1,40 @@
+.container{
+
+}
+button{
+font-family: "Proxima Nova";
+font-size: 16pt;
+margin-top: 10%;
+font-weight: bold;
+color: white;
+
+padding: 6px;
+
+}
+
+#button1{
+  margin-left: 30%;
+  margin-right: 20px;
+  background-color: #ffb3cc;
+}
+
+#button2{
+background-color:  #b3d9ff
+}
+.videos{
+  margin-left: 30%;
+    margin-bottom: 30%;
+  margin-top: 10px;
+}
+
+#static{
+
+}
+
+#sunny{
+display:none;
+}
+
+#rainy{
+display: none;
+}

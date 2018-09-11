@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>Live Web - Week 1: Portrait</title>
+  <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <button type="button" id="button1" onClick="playSunnyVideo()">Sunny Day Kinda Mood</button>
+    <button type="button" id="button2" onClick="playRainyVideo()">Rainy Day Kinda Mood</button>
+
+    <script type="text/javascript">
+      function playSunnyVideo() {
+        document.getElementById("sunny").style.display = "block";
+        document.getElementById("static").style.display = "none";
+        document.getElementById("rainy").style.display = "none";
+
+      }
+
+      function playRainyVideo() {
+        document.getElementById("rainy").style.display = "block";
+        document.getElementById("sunny").style.display = "none";
+        document.getElementById("static").style.display = "none";
+
+      }
+    </script>
+
+
+
+    <div class="videos" id="static">
+      <iframe width="500" height="500" src="https://www.youtube.com/embed/W6c8-id8Z4Y?rel=0&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div class="videos" id="sunny">
+      <iframe width="500" height="500" src="https://www.youtube.com/embed/R6S0SHq49b0?rel=0&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="videos" id="rainy">
+      <iframe width="500" height="500" src="https://www.youtube.com/embed/6nQC1kgRwDY?rel=0&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+  </div>
+</body>
+
+</html>
